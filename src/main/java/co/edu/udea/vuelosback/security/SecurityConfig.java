@@ -38,7 +38,7 @@ public class SecurityConfig {
                 .csrf().disable()
                 .authorizeHttpRequests()
                 .requestMatchers(
-                    "/sapi/auth/**"
+                    "/api/auth/**"
                 )
                 .permitAll()
                 .anyRequest()

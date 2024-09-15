@@ -32,8 +32,7 @@ public class JwtFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        System.out.println("---------> Filtro de autenticacion JWT\n\n");
-        if (request.getServletPath().matches("/sapi/auth/login")) {
+        if (request.getServletPath().startsWith("/api/auth")) {
             filterChain.doFilter(request, response);
         } else {
             String authorizationHeader = request.getHeader("Authorization");

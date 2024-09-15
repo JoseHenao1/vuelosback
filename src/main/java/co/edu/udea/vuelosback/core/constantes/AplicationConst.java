@@ -1,4 +1,4 @@
-package co.edu.udea.vuelosback.responses.constantes;
+package co.edu.udea.vuelosback.core.constantes;
 
 public class AplicationConst {
 

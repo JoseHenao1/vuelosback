@@ -1,8 +1,8 @@
-package co.edu.udea.vuelosback.models;
+package co.edu.udea.vuelosback.core.models;
 
 public enum RolesAplicacion {
     administrador("administrador"),
-    usuario("usuario"),
+    usuario("usuario");
 
     private final String rol;
 

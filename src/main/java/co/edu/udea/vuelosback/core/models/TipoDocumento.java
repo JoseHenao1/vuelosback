@@ -1,4 +1,4 @@
-package co.edu.udea.vuelosback.models;
+package co.edu.udea.vuelosback.core.models;
 
 public enum TipoDocumento {
     TARJETA_DE_IDENTIDAD,
